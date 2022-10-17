@@ -1,6 +1,7 @@
 {
   "name": "space-engineers-data-extraction",
   "packageManager": "yarn@3.2.2",
+  "type": "module",
   "dependencies": {
     "xml2js": "^0.4.23"
   }
