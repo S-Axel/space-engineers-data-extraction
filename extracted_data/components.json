@@ -2,116 +2,404 @@
   {
     "typeId": "Component",
     "subtypeId": "Construction",
-    "displayName": "DisplayName_Item_ConstructionComponent"
-  },
-  {
-    "typeId": "Component",
-    "subtypeId": "MetalGrid",
-    "displayName": "DisplayName_Item_MetalGrid"
-  },
-  {
-    "typeId": "Component",
-    "subtypeId": "InteriorPlate",
-    "displayName": "DisplayName_Item_InteriorPlate"
-  },
-  {
-    "typeId": "Component",
-    "subtypeId": "SteelPlate",
-    "displayName": "DisplayName_Item_SteelPlate"
+    "displayName": "DisplayName_Item_ConstructionComponent",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Iron",
+        "amount": "8"
+      }
+    ]
   },
   {
     "typeId": "Component",
     "subtypeId": "Girder",
-    "displayName": "DisplayName_Item_Girder"
+    "displayName": "DisplayName_Item_Girder",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Iron",
+        "amount": "6"
+      }
+    ]
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "MetalGrid",
+    "displayName": "DisplayName_Item_MetalGrid",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Iron",
+        "amount": "12"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Nickel",
+        "amount": "5"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Cobalt",
+        "amount": "3"
+      }
+    ]
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "InteriorPlate",
+    "displayName": "DisplayName_Item_InteriorPlate",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Iron",
+        "amount": "3"
+      }
+    ]
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "SteelPlate",
+    "displayName": "DisplayName_Item_SteelPlate",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Iron",
+        "amount": "21"
+      }
+    ]
   },
   {
     "typeId": "Component",
     "subtypeId": "SmallTube",
-    "displayName": "DisplayName_Item_SmallSteelTube"
+    "displayName": "DisplayName_Item_SmallSteelTube",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Iron",
+        "amount": "5"
+      }
+    ]
   },
   {
     "typeId": "Component",
     "subtypeId": "LargeTube",
-    "displayName": "DisplayName_Item_LargeSteelTube"
+    "displayName": "DisplayName_Item_LargeSteelTube",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Iron",
+        "amount": "30"
+      }
+    ]
   },
   {
     "typeId": "Component",
     "subtypeId": "Motor",
-    "displayName": "DisplayName_Item_Motor"
+    "displayName": "DisplayName_Item_Motor",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Iron",
+        "amount": "20"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Nickel",
+        "amount": "5"
+      }
+    ]
   },
   {
     "typeId": "Component",
     "subtypeId": "Display",
-    "displayName": "DisplayName_Item_Display"
+    "displayName": "DisplayName_Item_Display",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Iron",
+        "amount": "1"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Silicon",
+        "amount": "5"
+      }
+    ]
   },
   {
     "typeId": "Component",
     "subtypeId": "BulletproofGlass",
-    "displayName": "DisplayName_Item_BulletproofGlass"
-  },
-  {
-    "typeId": "Component",
-    "subtypeId": "Superconductor",
-    "displayName": "DisplayName_Item_Superconductor"
+    "displayName": "DisplayName_Item_BulletproofGlass",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Silicon",
+        "amount": "15"
+      }
+    ]
   },
   {
     "typeId": "Component",
     "subtypeId": "Computer",
-    "displayName": "DisplayName_Item_Computer"
+    "displayName": "DisplayName_Item_Computer",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Iron",
+        "amount": "0.5"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Silicon",
+        "amount": "0.2"
+      }
+    ]
   },
   {
     "typeId": "Component",
     "subtypeId": "Reactor",
-    "displayName": "DisplayName_Item_ReactorComponents"
+    "displayName": "DisplayName_Item_ReactorComponents",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Iron",
+        "amount": "15"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Stone",
+        "amount": "20"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Silver",
+        "amount": "5"
+      }
+    ]
   },
   {
     "typeId": "Component",
     "subtypeId": "Thrust",
-    "displayName": "DisplayName_Item_ThrustComponents"
+    "displayName": "DisplayName_Item_ThrustComponents",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Iron",
+        "amount": "30"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Cobalt",
+        "amount": "10"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Gold",
+        "amount": "1"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Platinum",
+        "amount": "0.4"
+      }
+    ]
   },
   {
     "typeId": "Component",
     "subtypeId": "GravityGenerator",
-    "displayName": "DisplayName_Item_GravityGeneratorComponents"
+    "displayName": "DisplayName_Item_GravityGeneratorComponents",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Silver",
+        "amount": "5"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Gold",
+        "amount": "10"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Cobalt",
+        "amount": "220"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Iron",
+        "amount": "600"
+      }
+    ]
   },
   {
     "typeId": "Component",
     "subtypeId": "Medical",
-    "displayName": "DisplayName_Item_MedicalComponents"
+    "displayName": "DisplayName_Item_MedicalComponents",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Iron",
+        "amount": "60"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Nickel",
+        "amount": "70"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Silver",
+        "amount": "20"
+      }
+    ]
   },
   {
     "typeId": "Component",
     "subtypeId": "RadioCommunication",
-    "displayName": "DisplayName_Item_RadioCommunicationComponents"
+    "displayName": "DisplayName_Item_RadioCommunicationComponents",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Iron",
+        "amount": "8"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Silicon",
+        "amount": "1"
+      }
+    ]
   },
   {
     "typeId": "Component",
     "subtypeId": "Detector",
-    "displayName": "DisplayName_Item_DetectorComponents"
-  },
-  {
-    "typeId": "Component",
-    "subtypeId": "Explosives",
-    "displayName": "DisplayName_Item_Explosives"
-  },
-  {
-    "typeId": "Component",
-    "subtypeId": "SolarCell",
-    "displayName": "DisplayName_Item_SolarCell"
-  },
-  {
-    "typeId": "Component",
-    "subtypeId": "PowerCell",
-    "displayName": "DisplayName_Item_PowerCell"
+    "displayName": "DisplayName_Item_DetectorComponents",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Iron",
+        "amount": "5"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Nickel",
+        "amount": "15"
+      }
+    ]
   },
   {
     "typeId": "Component",
     "subtypeId": "Canvas",
-    "displayName": "DisplayName_Item_CanvasCartridge"
+    "displayName": "DisplayName_Item_CanvasCartridge",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Silicon",
+        "amount": "35"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Iron",
+        "amount": "2"
+      }
+    ]
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "Explosives",
+    "displayName": "DisplayName_Item_Explosives",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Silicon",
+        "amount": "0.5"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Magnesium",
+        "amount": "2.0"
+      }
+    ]
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "SolarCell",
+    "displayName": "DisplayName_Item_SolarCell",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Nickel",
+        "amount": "3"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Silicon",
+        "amount": "6"
+      }
+    ]
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "PowerCell",
+    "displayName": "DisplayName_Item_PowerCell",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Iron",
+        "amount": "10"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Silicon",
+        "amount": "1"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Nickel",
+        "amount": "2"
+      }
+    ]
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "Superconductor",
+    "displayName": "DisplayName_Item_Superconductor",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Iron",
+        "amount": "10"
+      },
+      {
+        "typeId": "Ingot",
+        "subtypeId": "Gold",
+        "amount": "2"
+      }
+    ]
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "ZoneChip",
+    "displayName": "DisplayName_Item_ZoneChip",
+    "recipe": [
+      {
+        "typeId": "Component",
+        "subtypeId": "ZoneChip",
+        "amount": "1"
+      }
+    ]
   },
   {
     "typeId": "Component",
     "subtypeId": "EngineerPlushie",
-    "displayName": "DisplayName_Block_EngineerPlushie"
+    "displayName": "DisplayName_Item_EngineerPlushie",
+    "recipe": [
+      {
+        "typeId": "Ingot",
+        "subtypeId": "EngineerPlushie",
+        "amount": "0"
+      }
+    ]
   }
 ]
