@@ -1,0 +1,52 @@
+[
+  {
+    "typeId": "Ingot",
+    "subtypeId": "Stone",
+    "displayName": "DisplayName_Item_Gravel"
+  },
+  {
+    "typeId": "Ingot",
+    "subtypeId": "Iron",
+    "displayName": "DisplayName_Item_IronIngot"
+  },
+  {
+    "typeId": "Ingot",
+    "subtypeId": "Nickel",
+    "displayName": "DisplayName_Item_NickelIngot"
+  },
+  {
+    "typeId": "Ingot",
+    "subtypeId": "Cobalt",
+    "displayName": "DisplayName_Item_CobaltIngot"
+  },
+  {
+    "typeId": "Ingot",
+    "subtypeId": "Magnesium",
+    "displayName": "DisplayName_Item_MagnesiumPowder"
+  },
+  {
+    "typeId": "Ingot",
+    "subtypeId": "Silicon",
+    "displayName": "DisplayName_Item_SiliconWafer"
+  },
+  {
+    "typeId": "Ingot",
+    "subtypeId": "Silver",
+    "displayName": "DisplayName_Item_SilverIngot"
+  },
+  {
+    "typeId": "Ingot",
+    "subtypeId": "Gold",
+    "displayName": "DisplayName_Item_GoldIngot"
+  },
+  {
+    "typeId": "Ingot",
+    "subtypeId": "Platinum",
+    "displayName": "DisplayName_Item_PlatinumIngot"
+  },
+  {
+    "typeId": "Ingot",
+    "subtypeId": "Uranium",
+    "displayName": "DisplayName_Item_UraniumIngot"
+  }
+]

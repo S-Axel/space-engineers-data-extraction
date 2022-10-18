@@ -1,0 +1,117 @@
+[
+  {
+    "typeId": "Component",
+    "subtypeId": "Construction",
+    "displayName": "DisplayName_Item_ConstructionComponent"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "MetalGrid",
+    "displayName": "DisplayName_Item_MetalGrid"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "InteriorPlate",
+    "displayName": "DisplayName_Item_InteriorPlate"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "SteelPlate",
+    "displayName": "DisplayName_Item_SteelPlate"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "Girder",
+    "displayName": "DisplayName_Item_Girder"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "SmallTube",
+    "displayName": "DisplayName_Item_SmallSteelTube"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "LargeTube",
+    "displayName": "DisplayName_Item_LargeSteelTube"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "Motor",
+    "displayName": "DisplayName_Item_Motor"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "Display",
+    "displayName": "DisplayName_Item_Display"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "BulletproofGlass",
+    "displayName": "DisplayName_Item_BulletproofGlass"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "Superconductor",
+    "displayName": "DisplayName_Item_Superconductor"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "Computer",
+    "displayName": "DisplayName_Item_Computer"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "Reactor",
+    "displayName": "DisplayName_Item_ReactorComponents"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "Thrust",
+    "displayName": "DisplayName_Item_ThrustComponents"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "GravityGenerator",
+    "displayName": "DisplayName_Item_GravityGeneratorComponents"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "Medical",
+    "displayName": "DisplayName_Item_MedicalComponents"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "RadioCommunication",
+    "displayName": "DisplayName_Item_RadioCommunicationComponents"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "Detector",
+    "displayName": "DisplayName_Item_DetectorComponents"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "Explosives",
+    "displayName": "DisplayName_Item_Explosives"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "SolarCell",
+    "displayName": "DisplayName_Item_SolarCell"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "PowerCell",
+    "displayName": "DisplayName_Item_PowerCell"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "Canvas",
+    "displayName": "DisplayName_Item_CanvasCartridge"
+  },
+  {
+    "typeId": "Component",
+    "subtypeId": "EngineerPlushie",
+    "displayName": "DisplayName_Block_EngineerPlushie"
+  }
+]
