@@ -9,7 +9,3 @@ await writeJsonFile('components', components);
 
 const ingots = await parseIngots(gameFolder);
 await writeJsonFile('ingots', ingots);
-
-// Additional component: Components_economy.sbc
-// Recipes: Blueprints.sbc Blueprints_Economy.sbc
-// Ingots: Blueprints.sbc
