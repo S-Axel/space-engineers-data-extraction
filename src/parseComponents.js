@@ -18,6 +18,7 @@ const mapXmlToComponents = (xml) => (
 );
 
 const parseComponents = async (gameFolder) => {
+  console.log('parsing components');
   const xml = await readXmlFile(`${gameFolder}/Content/Data/Blueprints.sbc`);
   const filteredXml = filterXml(xml);
   return mapXmlToComponents(filteredXml);

@@ -4,6 +4,7 @@ import xml2js from 'xml2js';
 const parser = new xml2js.Parser();
 
 const readXmlFile = async (filePath) => new Promise((resolve) => {
+  console.log(`reading ${filePath}`);
   fs.readFile(filePath, (fsErr, data) => {
     if (fsErr) throw fsErr;
     parser.parseString(data, (parseErr, xmlObject) => {

@@ -1,6 +1,7 @@
 import fs from 'fs';
 
 const writeJsonFile = async (fileName, data) => new Promise ((resolve) => {
+  console.log(`writing extracted_data/${fileName}.json`);
   const callback = (err) => {
     if (err) throw err;
     resolve();

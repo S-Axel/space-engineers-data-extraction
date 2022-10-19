@@ -22,6 +22,7 @@ const removeDuplicates = (ingots) => (
 );
 
 const parseIngots = async (gameFolder) => {
+  console.log('parsing ingots');
   const xml = await readXmlFile(`${gameFolder}/Content/Data/Blueprints.sbc`);
   const xmlIngots = filterXmlIngots(xml);
   const ingots = mapXmlIngots(xmlIngots);

@@ -58,6 +58,7 @@ const files = [
 ];
 
 const parseBlocks = async (gameFolder) => {
+  console.log('parsing blocks');
   let blocks = [];
   for (let i = 0; i < files.length; i++) {
     blocks = blocks.concat(await parseBlocksOfFile(`${gameFolder}${files[i]}`));
