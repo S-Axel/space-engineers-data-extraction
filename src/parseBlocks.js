@@ -1,17 +1,21 @@
 import readXmlFile from './readXmlFile.js';
 
 const mapXmlToBlock = (xml) => (
-  xml.Definitions.CubeBlocks[0].Definition.map((block) => ({
-    type: block.Id[0].TypeId[0],
-    subtype: block.Id[0].SubtypeId[0],
-    name: block.DisplayName[0],
-    size: block.CubeSize[0],
-    pcu: block.PCU ? block.PCU[0] : '0',
-    recipe: block.Components[0].Component.map((component) => ({
-      subtype: component.$.Subtype,
-      count: component.$.Count,
-    })),
-  }))
+  Object.fromEntries(
+    xml.Definitions.CubeBlocks[0].Definition.map((block) => ([
+      block.Id[0].SubtypeId[0],
+      {
+        type: block.Id[0].TypeId[0],
+        name: block.DisplayName[0],
+        size: block.CubeSize[0],
+        pcu: block.PCU ? block.PCU[0] : '0',
+        recipe: block.Components[0].Component.map((component) => ({
+          subtype: component.$.Subtype,
+          count: component.$.Count,
+        })),
+      }
+    ]))
+  )
 );
 
 const parseBlocksOfFile = async (filePath) => {
@@ -59,9 +63,9 @@ const files = [
 
 const parseBlocks = async (gameFolder) => {
   console.log('parsing blocks');
-  let blocks = [];
+  let blocks = {};
   for (let i = 0; i < files.length; i++) {
-    blocks = blocks.concat(await parseBlocksOfFile(`${gameFolder}${files[i]}`));
+    Object.assign(blocks, await parseBlocksOfFile(`${gameFolder}${files[i]}`));
   }
   return blocks;
 };

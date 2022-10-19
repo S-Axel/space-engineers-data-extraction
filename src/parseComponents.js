@@ -7,14 +7,17 @@ const filterXml = (xml) => (
 );
 
 const mapXmlToComponents = (xml) => (
-  xml.map((blueprint) => ({
-    subtype: blueprint.Result[0].$.SubtypeId,
-    name: blueprint.DisplayName[0],
-    recipe: blueprint.Prerequisites[0].Item.map((item) => ({
-      subtype: item.$.SubtypeId,
-      count: item.$.Amount,
-    })),
-  }))
+  Object.fromEntries(
+    xml.map((blueprint) => ([
+      blueprint.Result[0].$.SubtypeId,
+      {
+        name: blueprint.DisplayName[0],
+        recipe: blueprint.Prerequisites[0].Item.map((item) => ({
+          subtype: item.$.SubtypeId,
+          count: item.$.Amount,
+        })),
+    }]))
+  )
 );
 
 const parseComponents = async (gameFolder) => {

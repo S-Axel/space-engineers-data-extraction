@@ -1,6 +1,5 @@
-[
-  {
-    "subtype": "Construction",
+{
+  "Construction": {
     "name": "DisplayName_Item_ConstructionComponent",
     "recipe": [
       {
@@ -9,8 +8,7 @@
       }
     ]
   },
-  {
-    "subtype": "Girder",
+  "Girder": {
     "name": "DisplayName_Item_Girder",
     "recipe": [
       {
@@ -19,8 +17,7 @@
       }
     ]
   },
-  {
-    "subtype": "MetalGrid",
+  "MetalGrid": {
     "name": "DisplayName_Item_MetalGrid",
     "recipe": [
       {
@@ -37,8 +34,7 @@
       }
     ]
   },
-  {
-    "subtype": "InteriorPlate",
+  "InteriorPlate": {
     "name": "DisplayName_Item_InteriorPlate",
     "recipe": [
       {
@@ -47,8 +43,7 @@
       }
     ]
   },
-  {
-    "subtype": "SteelPlate",
+  "SteelPlate": {
     "name": "DisplayName_Item_SteelPlate",
     "recipe": [
       {
@@ -57,8 +52,7 @@
       }
     ]
   },
-  {
-    "subtype": "SmallTube",
+  "SmallTube": {
     "name": "DisplayName_Item_SmallSteelTube",
     "recipe": [
       {
@@ -67,8 +61,7 @@
       }
     ]
   },
-  {
-    "subtype": "LargeTube",
+  "LargeTube": {
     "name": "DisplayName_Item_LargeSteelTube",
     "recipe": [
       {
@@ -77,8 +70,7 @@
       }
     ]
   },
-  {
-    "subtype": "Motor",
+  "Motor": {
     "name": "DisplayName_Item_Motor",
     "recipe": [
       {
@@ -91,8 +83,7 @@
       }
     ]
   },
-  {
-    "subtype": "Display",
+  "Display": {
     "name": "DisplayName_Item_Display",
     "recipe": [
       {
@@ -105,8 +96,7 @@
       }
     ]
   },
-  {
-    "subtype": "BulletproofGlass",
+  "BulletproofGlass": {
     "name": "DisplayName_Item_BulletproofGlass",
     "recipe": [
       {
@@ -115,8 +105,7 @@
       }
     ]
   },
-  {
-    "subtype": "Computer",
+  "Computer": {
     "name": "DisplayName_Item_Computer",
     "recipe": [
       {
@@ -129,8 +118,7 @@
       }
     ]
   },
-  {
-    "subtype": "Reactor",
+  "Reactor": {
     "name": "DisplayName_Item_ReactorComponents",
     "recipe": [
       {
@@ -147,8 +135,7 @@
       }
     ]
   },
-  {
-    "subtype": "Thrust",
+  "Thrust": {
     "name": "DisplayName_Item_ThrustComponents",
     "recipe": [
       {
@@ -169,8 +156,7 @@
       }
     ]
   },
-  {
-    "subtype": "GravityGenerator",
+  "GravityGenerator": {
     "name": "DisplayName_Item_GravityGeneratorComponents",
     "recipe": [
       {
@@ -191,8 +177,7 @@
       }
     ]
   },
-  {
-    "subtype": "Medical",
+  "Medical": {
     "name": "DisplayName_Item_MedicalComponents",
     "recipe": [
       {
@@ -209,8 +194,7 @@
       }
     ]
   },
-  {
-    "subtype": "RadioCommunication",
+  "RadioCommunication": {
     "name": "DisplayName_Item_RadioCommunicationComponents",
     "recipe": [
       {
@@ -223,8 +207,7 @@
       }
     ]
   },
-  {
-    "subtype": "Detector",
+  "Detector": {
     "name": "DisplayName_Item_DetectorComponents",
     "recipe": [
       {
@@ -237,8 +220,7 @@
       }
     ]
   },
-  {
-    "subtype": "Canvas",
+  "Canvas": {
     "name": "DisplayName_Item_CanvasCartridge",
     "recipe": [
       {
@@ -251,8 +233,7 @@
       }
     ]
   },
-  {
-    "subtype": "Explosives",
+  "Explosives": {
     "name": "DisplayName_Item_Explosives",
     "recipe": [
       {
@@ -265,8 +246,7 @@
       }
     ]
   },
-  {
-    "subtype": "SolarCell",
+  "SolarCell": {
     "name": "DisplayName_Item_SolarCell",
     "recipe": [
       {
@@ -279,8 +259,7 @@
       }
     ]
   },
-  {
-    "subtype": "PowerCell",
+  "PowerCell": {
     "name": "DisplayName_Item_PowerCell",
     "recipe": [
       {
@@ -297,8 +276,7 @@
       }
     ]
   },
-  {
-    "subtype": "Superconductor",
+  "Superconductor": {
     "name": "DisplayName_Item_Superconductor",
     "recipe": [
       {
@@ -311,8 +289,7 @@
       }
     ]
   },
-  {
-    "subtype": "ZoneChip",
+  "ZoneChip": {
     "name": "DisplayName_Item_ZoneChip",
     "recipe": [
       {
@@ -321,8 +298,7 @@
       }
     ]
   },
-  {
-    "subtype": "EngineerPlushie",
+  "EngineerPlushie": {
     "name": "DisplayName_Item_EngineerPlushie",
     "recipe": [
       {
@@ -331,4 +307,4 @@
       }
     ]
   }
-]
+}

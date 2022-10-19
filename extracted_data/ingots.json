@@ -1,42 +1,32 @@
-[
-  {
-    "subtype": "Stone",
+{
+  "Stone": {
     "name": "DisplayName_Item_Gravel"
   },
-  {
-    "subtype": "Iron",
+  "Iron": {
     "name": "DisplayName_Item_IronIngot"
   },
-  {
-    "subtype": "Nickel",
-    "name": "DisplayName_Item_NickelIngot"
+  "Uranium": {
+    "name": "DisplayName_Item_UraniumIngot"
   },
-  {
-    "subtype": "Cobalt",
-    "name": "DisplayName_Item_CobaltIngot"
-  },
-  {
-    "subtype": "Magnesium",
-    "name": "DisplayName_Item_MagnesiumPowder"
-  },
-  {
-    "subtype": "Silicon",
-    "name": "DisplayName_Item_SiliconWafer"
-  },
-  {
-    "subtype": "Silver",
-    "name": "DisplayName_Item_SilverIngot"
-  },
-  {
-    "subtype": "Gold",
-    "name": "DisplayName_Item_GoldIngot"
-  },
-  {
-    "subtype": "Platinum",
+  "Platinum": {
     "name": "DisplayName_Item_PlatinumIngot"
   },
-  {
-    "subtype": "Uranium",
-    "name": "DisplayName_Item_UraniumIngot"
+  "Gold": {
+    "name": "DisplayName_Item_GoldIngot"
+  },
+  "Silver": {
+    "name": "DisplayName_Item_SilverIngot"
+  },
+  "Silicon": {
+    "name": "DisplayName_Item_SiliconWafer"
+  },
+  "Magnesium": {
+    "name": "DisplayName_Item_MagnesiumPowder"
+  },
+  "Cobalt": {
+    "name": "DisplayName_Item_CobaltIngot"
+  },
+  "Nickel": {
+    "name": "DisplayName_Item_NickelIngot"
   }
-]
+}

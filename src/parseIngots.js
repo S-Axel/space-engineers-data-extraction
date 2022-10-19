@@ -9,24 +9,20 @@ const filterXmlIngots = (xml) => (
 );
 
 const mapXmlIngots = (xml) => (
-  xml.map((blueprint) => ({
-    subtype: blueprint.Results ? blueprint.Results[0].Item[0].$.SubtypeId : blueprint.Result[0].$.SubtypeId,
-    name: blueprint.DisplayName[0],
-  }))
-);
-
-const removeDuplicates = (ingots) => (
-  ingots.filter((ingot, index) => (
-    ingots.findIndex(fIngot => fIngot.subtype === ingot.subtype) === index
-  ))
+  Object.fromEntries(
+    xml
+      .map((blueprint) => ([blueprint.Results ? blueprint.Results[0].Item[0].$.SubtypeId : blueprint.Result[0].$.SubtypeId, {
+        name: blueprint.DisplayName[0],
+      }]))
+      .reverse()
+  )
 );
 
 const parseIngots = async (gameFolder) => {
   console.log('parsing ingots');
   const xml = await readXmlFile(`${gameFolder}/Content/Data/Blueprints.sbc`);
   const xmlIngots = filterXmlIngots(xml);
-  const ingots = mapXmlIngots(xmlIngots);
-  return removeDuplicates(ingots);
+  return mapXmlIngots(xmlIngots);
 };
 
 export default parseIngots;
