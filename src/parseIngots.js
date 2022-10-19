@@ -10,15 +10,14 @@ const filterXmlIngots = (xml) => (
 
 const mapXmlIngots = (xml) => (
   xml.map((blueprint) => ({
-    typeId: blueprint.Results ? blueprint.Results[0].Item[0].$.TypeId : blueprint.Result[0].$.TypeId,
-    subtypeId: blueprint.Results ? blueprint.Results[0].Item[0].$.SubtypeId : blueprint.Result[0].$.SubtypeId,
-    displayName: blueprint.DisplayName[0],
+    subtype: blueprint.Results ? blueprint.Results[0].Item[0].$.SubtypeId : blueprint.Result[0].$.SubtypeId,
+    name: blueprint.DisplayName[0],
   }))
 );
 
 const removeDuplicates = (ingots) => (
   ingots.filter((ingot, index) => (
-    ingots.findIndex(fIngot => fIngot.subtypeId === ingot.subtypeId) === index
+    ingots.findIndex(fIngot => fIngot.subtype === ingot.subtype) === index
   ))
 );
 

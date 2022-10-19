@@ -2,14 +2,14 @@ import readXmlFile from './readXmlFile.js';
 
 const mapXmlToBlock = (xml) => (
   xml.Definitions.CubeBlocks[0].Definition.map((block) => ({
-    typeId: block.Id[0].TypeId[0],
-    subtypeId: block.Id[0].SubtypeId[0],
-    displayName: block.DisplayName[0],
+    type: block.Id[0].TypeId[0],
+    subtype: block.Id[0].SubtypeId[0],
+    name: block.DisplayName[0],
     size: block.CubeSize[0],
     pcu: block.PCU ? block.PCU[0] : '0',
     recipe: block.Components[0].Component.map((component) => ({
-      subtypeId: component.$.Subtype,
-      amount: component.$.Count,
+      subtype: component.$.Subtype,
+      count: component.$.Count,
     })),
   }))
 );

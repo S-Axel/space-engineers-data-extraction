@@ -8,13 +8,11 @@ const filterXml = (xml) => (
 
 const mapXmlToComponents = (xml) => (
   xml.map((blueprint) => ({
-    typeId: blueprint.Result[0].$.TypeId,
-    subtypeId: blueprint.Result[0].$.SubtypeId,
-    displayName: blueprint.DisplayName[0],
+    subtype: blueprint.Result[0].$.SubtypeId,
+    name: blueprint.DisplayName[0],
     recipe: blueprint.Prerequisites[0].Item.map((item) => ({
-      typeId: item.$.TypeId,
-      subtypeId: item.$.SubtypeId,
-      amount: item.$.Amount,
+      subtype: item.$.SubtypeId,
+      count: item.$.Amount,
     })),
   }))
 );
