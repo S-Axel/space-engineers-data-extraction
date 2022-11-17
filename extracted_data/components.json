@@ -6,7 +6,8 @@
         "subtype": "Iron",
         "count": "8"
       }
-    ]
+    ],
+    "mass": "8"
   },
   "Girder": {
     "name": "DisplayName_Item_Girder",
@@ -15,7 +16,8 @@
         "subtype": "Iron",
         "count": "6"
       }
-    ]
+    ],
+    "mass": "6"
   },
   "MetalGrid": {
     "name": "DisplayName_Item_MetalGrid",
@@ -32,7 +34,8 @@
         "subtype": "Cobalt",
         "count": "3"
       }
-    ]
+    ],
+    "mass": "6"
   },
   "InteriorPlate": {
     "name": "DisplayName_Item_InteriorPlate",
@@ -41,7 +44,8 @@
         "subtype": "Iron",
         "count": "3"
       }
-    ]
+    ],
+    "mass": "3"
   },
   "SteelPlate": {
     "name": "DisplayName_Item_SteelPlate",
@@ -50,7 +54,8 @@
         "subtype": "Iron",
         "count": "21"
       }
-    ]
+    ],
+    "mass": "20"
   },
   "SmallTube": {
     "name": "DisplayName_Item_SmallSteelTube",
@@ -59,7 +64,8 @@
         "subtype": "Iron",
         "count": "5"
       }
-    ]
+    ],
+    "mass": "4"
   },
   "LargeTube": {
     "name": "DisplayName_Item_LargeSteelTube",
@@ -68,7 +74,8 @@
         "subtype": "Iron",
         "count": "30"
       }
-    ]
+    ],
+    "mass": "25"
   },
   "Motor": {
     "name": "DisplayName_Item_Motor",
@@ -81,7 +88,8 @@
         "subtype": "Nickel",
         "count": "5"
       }
-    ]
+    ],
+    "mass": "24"
   },
   "Display": {
     "name": "DisplayName_Item_Display",
@@ -94,7 +102,8 @@
         "subtype": "Silicon",
         "count": "5"
       }
-    ]
+    ],
+    "mass": "8"
   },
   "BulletproofGlass": {
     "name": "DisplayName_Item_BulletproofGlass",
@@ -103,7 +112,8 @@
         "subtype": "Silicon",
         "count": "15"
       }
-    ]
+    ],
+    "mass": "15"
   },
   "Computer": {
     "name": "DisplayName_Item_Computer",
@@ -116,7 +126,8 @@
         "subtype": "Silicon",
         "count": "0.2"
       }
-    ]
+    ],
+    "mass": "0.2"
   },
   "Reactor": {
     "name": "DisplayName_Item_ReactorComponents",
@@ -133,7 +144,8 @@
         "subtype": "Silver",
         "count": "5"
       }
-    ]
+    ],
+    "mass": "25"
   },
   "Thrust": {
     "name": "DisplayName_Item_ThrustComponents",
@@ -154,7 +166,8 @@
         "subtype": "Platinum",
         "count": "0.4"
       }
-    ]
+    ],
+    "mass": "40"
   },
   "GravityGenerator": {
     "name": "DisplayName_Item_GravityGeneratorComponents",
@@ -175,7 +188,8 @@
         "subtype": "Iron",
         "count": "600"
       }
-    ]
+    ],
+    "mass": "800"
   },
   "Medical": {
     "name": "DisplayName_Item_MedicalComponents",
@@ -192,7 +206,8 @@
         "subtype": "Silver",
         "count": "20"
       }
-    ]
+    ],
+    "mass": "150"
   },
   "RadioCommunication": {
     "name": "DisplayName_Item_RadioCommunicationComponents",
@@ -205,7 +220,8 @@
         "subtype": "Silicon",
         "count": "1"
       }
-    ]
+    ],
+    "mass": "8"
   },
   "Detector": {
     "name": "DisplayName_Item_DetectorComponents",
@@ -218,7 +234,8 @@
         "subtype": "Nickel",
         "count": "15"
       }
-    ]
+    ],
+    "mass": "5"
   },
   "Canvas": {
     "name": "DisplayName_Item_CanvasCartridge",
@@ -231,7 +248,8 @@
         "subtype": "Iron",
         "count": "2"
       }
-    ]
+    ],
+    "mass": "15"
   },
   "Explosives": {
     "name": "DisplayName_Item_Explosives",
@@ -244,7 +262,8 @@
         "subtype": "Magnesium",
         "count": "2.0"
       }
-    ]
+    ],
+    "mass": "2"
   },
   "SolarCell": {
     "name": "DisplayName_Item_SolarCell",
@@ -257,7 +276,8 @@
         "subtype": "Silicon",
         "count": "6"
       }
-    ]
+    ],
+    "mass": "6"
   },
   "PowerCell": {
     "name": "DisplayName_Item_PowerCell",
@@ -274,7 +294,8 @@
         "subtype": "Nickel",
         "count": "2"
       }
-    ]
+    ],
+    "mass": "25"
   },
   "Superconductor": {
     "name": "DisplayName_Item_Superconductor",
@@ -287,7 +308,8 @@
         "subtype": "Gold",
         "count": "2"
       }
-    ]
+    ],
+    "mass": "15"
   },
   "ZoneChip": {
     "name": "DisplayName_Item_ZoneChip",
@@ -305,6 +327,7 @@
         "subtype": "EngineerPlushie",
         "count": "0"
       }
-    ]
+    ],
+    "mass": "1"
   }
 }

@@ -1,5 +1,4 @@
-const checkDataIntegrity = (blocks, components, ingots) => {
-  console.log('Checking data integrity');
+const checkRecipiesConsistency = (blocks, components, ingots) => {
   Object.entries(blocks).forEach(([blockName, block]) => {
     block.recipe.forEach((item) => {
       if (!components.hasOwnProperty(item.subtype)) {
@@ -13,6 +12,20 @@ const checkDataIntegrity = (blocks, components, ingots) => {
       });
     });
   });
+};
+
+const checkAllComponentsHaveMass = (components) => {
+  Object.entries(components).forEach(([componentName, component]) => {
+    if (!component.mass) {
+      console.log(`Component ${componentName} has no mass`);
+    }
+  });
+};
+
+const checkDataIntegrity = (blocks, components, ingots) => {
+  console.log('Checking data integrity');
+  checkRecipiesConsistency(blocks, components, ingots);
+  checkAllComponentsHaveMass(components);
 };
 
 export default checkDataIntegrity;
