@@ -22,10 +22,33 @@ const checkAllComponentsHaveMass = (components) => {
   });
 };
 
-const checkDataIntegrity = (blocks, components, ingots) => {
+const checkGameObjectsAreLocalized = (gameObjects, localizationEn) => {
+  Object.entries(gameObjects).forEach(([gameObjectName, gameObject]) => {
+    if (!localizationEn.hasOwnProperty(gameObject.name)) {
+      console.log(`GameObject ${gameObjectName} has no localization key ${gameObject.name}`);
+    }
+  });
+};
+
+const checkLocalizationIntegrity = (localizationData, lang) => {
+  Object.entries(localizationData).forEach(([key, translation]) => {
+    if (!key) {
+      console.log(`In localization ${lang}, key ${key} is empty`);
+    }
+    if (!translation) {
+      console.log(`In localization ${lang} ${key} has an empty translation ${translation}`);
+    }
+  });
+};
+
+const checkDataIntegrity = (blocks, components, ingots, localizationEn) => {
   console.log('Checking data integrity');
   checkRecipiesConsistency(blocks, components, ingots);
   checkAllComponentsHaveMass(components);
+  checkGameObjectsAreLocalized(blocks, localizationEn);
+  checkGameObjectsAreLocalized(components, localizationEn);
+  checkGameObjectsAreLocalized(ingots, localizationEn);
+  checkLocalizationIntegrity(localizationEn, 'en');
 };
 
 export default checkDataIntegrity;
